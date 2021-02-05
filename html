@@ -1,196 +1,83 @@
-# HTML
-Treinos feitos com auxilio do Curso de Web Design
-
-<!doctype html>
-<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title> pagina de exemplo estrutura basica </title>
-        <meta charset="utf-8">
-        <meta name="author" content="Daniel">
-        <meta name="description" content="descrição bacanuda">
-        <meta name="keywords" content="html5, tecnologia">
-    </head>
 
-    <body>
-        <header class="main-header">
-        	<a href="index.html">
-        		<img src="#" alt="texto qualquer" class="main-header-link">
-        	</a>
+<head>
+	<title>Fashion</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Ruth">
+	<meta name="description" content="Moda, Visual, Layout">
+	<meta name="keywords" content="Visual, moda, roupa, local">
 
-        	<h1>Possívelmente um portfólio
-        		<br>
-        		<strong>Ruth Martins</strong>
-        		<br>
-        		Uma méra estudante de T.I desacreditada nesta carreira por se sentir solitária.
-        	</h1>
-        </header>
-
-        <main class="main-content">
-        	<section class="main-content-section">
-	        	<h2>Qualdo o Header é aside e o aside é header?</h2>
-	        		<p>
-	        			Quando o < aside> elemento é utilizado
-						dentro de uma < article>
-						elemento, ele deve conter informações que
-						está relacionado com o artigo, mas não
-						essencial ao seu significado geral. Por
-						exemplo, um glossário pullquote ou pode ser
-						considerado como um lado para o artigo se
-						refere.
-	        		</p>
-	        	
-	        		<a href="#" title="Veja mais" class="button-defalt"> Veja Mais </a>
-	        </section>
-
-	        <section class="main-content-section">
-	        	<h3>Recent Works</h3>
-	        	<article class="recents-works-cards">
-	        		<a href="Imagens\teste.jpg">
-	        			<img src="Imagens\tumblr\Carro.jpg" alt="descricao">
-	        		</a>
-	        		<p class="recent-works-card-title">Magna Sed COnsequat tempus</p>
-	        		<p>Testando as funcionalidades do Section com imagens dentro. Para treinar o visual da página.</p>	        		
-	        	</article>
-	        </section>
+	<link rel="stylesheet" type="text/css" href="C:/Users/Ruth/Desktop/Udemy/Web Design/Aulas_HTML/37.Projeto_Fashion\css/estilo.css">
+</head>
 
 
-	        <section class="main-content-section">
-	        	<h3>Recent Works</h3>
-	        	<article class="recents-works-cards">
-	        		<a href="Imagens\teste1.jpg">
-	        			<img src="Imagens\tumblr\Carro1.jpg" alt="descricao">
-	        		</a>
-	        		<p class="recent-works-card-title">Magna Sed COnsequat tempus</p>
-	        		<p>Testando as funcionalidades do Section com imagens dentro. Para treinar o visual da página.</p>	        		
-	        	</article>
-	        </section>
+	<body>
+		<div id="principal">
+			<header class="header-top">
+				<img class="logotipo" src="imagens/logo.png" alt="Logotipo Fashion">
+					<nav class="header-nav">
+						<ul>
+							<li> <a href="https://www.dreamstime.com/royalty-free-stock-photography-pinup-woman-motorcycle-image19831277" target="_blank"><b>Portfólio</b></a></li>
+							<li> <a href="https://br.pinterest.com/pin/391672498830289351/" target="_blank"><b>About Us</b></a></li>
+							<li> <a href="https://www.pinterest.com.mx/pin/839076974299309588/" target="_blank"><b>Contact</b></a></li>
+						</ul>
+					</nav>
+			</header>
+				<img class="m" src="imagens/topo.jpg" alt="Modelo feminino">
+		</div>
 
-	        
-	        <section class="main-content-section">
-	        	<h3>Recent Works</h3>
-	        	<article class="recents-works-cards">
-	        		<a href="Imagens\teste2.jpg">
-	        			<img src="Imagens\tumblr\Carro2.jpg" alt="descricao">
-	        		</a>
-	        		<p class="recent-works-card-title">Magna Sed COnsequat tempus</p>
-	        		<p>Testando as funcionalidades do Section com imagens dentro. Para treinar o visual da página.</p>	        		
-	        	</article>
-	        </section>
+		<article class="portifolio">
+			<h1> New Fashion Everything Never Enough </h1>
+				<p>A moda surgiu em meados do século XV no início do renascimento europeu. A palavra moda significa costume e provém do latim modus. A variação da característica das vestimentas surgiu para diferenciar o que antes era igual, usava-se um estilo de roupa desde a infância até a morte.</p>
+				<p>A partir da Idade Média, as roupas eram diferentes seguindo um padrão que aumentava segundo a classe social, houve até leis que restringiam tecidos e cores somente aos nobres.</p>
+				<p>A burguesia que não era nobre, mas era rica, passou a imitar o estilo nobre das roupas iniciando um processo de grande trabalho aos costureiros que a partir de então, eram obrigados a produzirem diferentes estilos para diferenciar os nobres dos burgueses. <br>
+				Com a revolução industrial no século XVIII, o custo dos tecidos diminuiu bastante, em 1850 com a invenção das máquinas de costura o custo dos tecidos caiu ainda mais.</p>
+				<p>A partir de então, até os mais humildes puderam comprar roupas melhores.
+				Mesmo após a facilidade das confecções, as mulheres ainda eram privadas da modernidade continuando a usar roupas sob medida. A partir desta dificuldade, surgiu a alta costura que produzia diferentes estilos por meio de estilistas que inventavam tendências.</p>
+		</article>
 
+		<section class="galery">
+			<article class="galery-card">
+				<img src="imagens/modelo1.jpg" alt="peça masculina">
+					<p class="galery-tittle"> Vest Romasa </p>
+					<p class="galery-text"> Strong &amp; Charismatic </p>
+			</article>
 
-	        <section class="main-content-section">
-	        	<h3>Recent Works</h3>
-	        	<article class="recents-works-cards">
-	        		<a href="Imagens\teste3.jpg">
-	        			<img src="Imagens\tumblr\Carro3.jpg" alt="descricao">
-	        		</a>
-	        		<p class="recent-works-card-title">Magna Sed COnsequat tempus</p>
-	        		<p>Testando as funcionalidades do Section com imagens dentro. Para treinar o visual da página.</p>	        		
-	        	</article>
-	        </section>
+			<article class="galery-card">
+				<img src="imagens/modelo2.jpg" alt="peça feminina inverno">
+					<p class="galery-tittle"> Jacket Fima </p>
+					<p class="galery-text"> Strong Sersonality </p>
+			</article>
 
-
-	        <section class="main-content-section">
-	        	<h3>Recent Works</h3>
-	        	<article class="recents-works-cards">
-	        		<a href="Imagens\teste4.jpg">
-	        			<img src="Imagens\tumblr\Carro4.jpg" alt="descricao">
-	        		</a>
-	        		<p class="recent-works-card-title">Magna Sed COnsequat tempus</p>
-	        		<p>Testando as funcionalidades do Section com imagens dentro. Para treinar o visual da página.</p>	        		
-	        	</article>
-	        </section>
+			<article class="galery-card">
+				<img src="imagens/modelo3.jpg" alt="peça feminina moto">
+					<p class="galery-tittle"> Jacket Black Kira </p>
+					<p class="galery-text"> Power Fascinating </p>
+			</article>
+		</section>
 
 
-	        <section class="main-content-section">
-	        	<h3>Recent Works</h3>
-	        	<article class="recents-works-cards">
-	        		<a href="Imagens\teste5.jpg">
-	        			<img src="Imagens\tumblr\Carro5.jpg" alt="descricao">
-	        		</a>
-	        		<p class="recent-works-card-title">Magna Sed COnsequat tempus</p>
-	        		<p>Testando as funcionalidades do Section com imagens dentro. Para treinar o visual da página.</p>	        		
-	        	</article>
-	        </section>
+		<article class="about">
+			<h2> New Fashion Everything Never Enough </h2>
+				<p>A moda surgiu em meados do século XV no início do renascimento europeu. A palavra moda significa costume e provém do latim modus. A variação da característica das vestimentas surgiu para diferenciar o que antes era igual, usava-se um estilo de roupa desde a infância até a morte.</p>
+		</article>
+
+		<div id="contact">
+			<address>Call me now for design
+				<br>012-1234-4567
+			</address>
+		</div>
+
+		<div class="maps">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.47153609355!2d-46.65982228502167!3d-23.58741618466994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59f1069d11d1%3A0xcb936109af9ce541!2sParque%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1611018641147!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
 
 
-	        <section class="main-content-section">
-	        	<h3>Get in Touch</h3>
-	        	<p>Após 15 anos de Supernatural, a saga dos irmãos Winchester está chegando ao fim. Um objeto muito importante desde o começo da série, é carro de Sam e Dean, o Impala 67 – muitas vezes carinhosamente apelidado de Baby, pelo irmão mais velho.</p>
+		<footer class="t">
+			Coyright &copy; fastfashion.com
+		</footer>
 
-	        	<form action="#" method="POST">
-	        		<label for="nome">Nome</label>
-	        		<input type="text" name="nome" id="nome">
+	</body>
 
-	        		<label for="email">E-mail</label>
-	        		<input type="text" name="email" id="email">
-
-	        		<label for="mensagem">Digite sua mensagem</label>
-	        		<textarea name="mensagem" id="mensagem"></textarea>
-	        		<input type="submit" value="Enviar">
-
-	        	</form>
-
-	        	<address>
-	        		<p> <span>Endereço </span> Rua testando, 123, Testando - SP CE </p>
-	        		<p> <span>Telefone </span> 00-00000-0000 </p>
-	        		<p> <span>E-mail </span> teste@testando.com </p>
-	        	</address>
-
-	        </section>
-
-
-	        <section class="main-content-section">
-	        	<h3>Elements</h3>
-	        	<h4>Text</h4>
-	        	<p>Em uma entrevista para o Digital <sup>Spy</sup>, Ackles contou que demorou um pouco para conseguir tal item. <i>“Eu implorei e implorei por anos, mas dessa vez eu finalmente consegui. Eles vão me deixar voltar pra casa com o Impala”</i>.</p>
-	        	<blockquote cite="http://developer.mozilla.org">
-				  <p>Esta é uma citação tirada da
-				  Mozilla Developer Center.</p>
-				</blockquote>
-				<p>According to Mozilla's website,
-				  <q cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0
-				  was released in 2004 and became a big success.</q>
-				</p>
-	        
-				<h4>Preformatado</h4>
-		        <pre> 
-		        	<code>
-		        	&lt;script&gt;
-		        	alert('oi')
-		        	&lt;/script&gt;
-		        	</code>
-		        </pre>
-
-		    	<h4>Listas</h4>
-		    	<h5>Não ordenada</h5>
-		    		<ul>
-		    			<li>Item 1</li>
-		    			<li>Item 2</li>
-		    			<li>Item 3</li>
-		    		</ul>
-
-		    	<h5>Ordenadas</h5>
-		    		<ul>
-		    			<li>Item 1</li>
-		    			<li>Item 2</li>
-		    			<li>Item 3</li>
-		    		</ul>
-
-		    	<h5>Alternate</h5>
-		    		<ul class="ul-alternate">
-		    			<li>Item 1</li>
-		    			<li>Item 2</li>
-		    			<li>Item 3</li>
-		    		</ul>
-
-		    </section>
-
-        </main>
-
-        <footer class="main-footer">
-        	
-        </footer>
-    </body>
 </html>
